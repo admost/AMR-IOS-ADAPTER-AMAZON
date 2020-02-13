@@ -63,5 +63,5 @@ typedef NS_ENUM(NSUInteger, AMALogLevel)
 
 + (void) setLogLevel:(AMALogLevel) logLevel;
 
-+ (void) setLogDelegate:(id<AMALogDelegate>)delegate;
++ (void) setLogDelegate:(id<AMALogDelegate> _Nullable)delegate;
 @end
