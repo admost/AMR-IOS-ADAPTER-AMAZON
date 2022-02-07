@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterAmazon'
-  s.version          = '3.1.0.1'
+  s.version          = '3.1.0.2'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
-  s.vendored_libraries = 'AMRAdapterAmazon/Libs/libAMRAdapterAmazon.a'
-  s.dependency 'AMRSDK', '~> 1.5.0'
-  s.vendored_frameworks = 'AMRAdapterAmazon/Libs/AmazonAd.framework'
+  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.vendored_frameworks = 'AMRAdapterAmazon/Libs/AMRAdapterAmazon.xcframework'
 end
