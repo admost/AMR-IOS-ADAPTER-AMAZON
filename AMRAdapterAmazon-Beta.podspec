@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                 }
   s.documentation_url = 'https://admost.github.io/amrios'
   s.platform      = :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.dependency 'AMRSDK-Beta', '~> 1.5.15'
   s.dependency 'AmazonPublisherServicesSDK', '4.5.2'
   s.vendored_frameworks = 'AMRAdapterAmazon/Libs/AMRAdapterAmazon.xcframework'
